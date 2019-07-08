@@ -29,13 +29,13 @@ public class Interpreter {
 		}
 	}
 
-	void run() {
+	void run(){
 		Program program = bcl.loadCodes();
 		VirtualMachine vm = new VirtualMachine(program);
 		vm.executeProgram();
 	}
 
-	public static void main(String args[]) {
+	public static void main(String args[]){
 
 		if (args.length == 0) {
 			System.out.println("***Incorrect usage, try: java interpreter.Interpreter <file>");
