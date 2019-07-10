@@ -1,4 +1,4 @@
-# CSC 413 - Project Two - The Interpeter
+# CSC 413 - Project Two - The Interpreter
 
 ## Student Name  : Ho Yin Mak 
 
